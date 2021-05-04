@@ -64,8 +64,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .conteudo{
     display:flex;
-  
-    
 }
 
 .conteudoTexto{
@@ -77,6 +75,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color:honeydew;
     border-radius: 20px;
     animation: efeito 1.5s;
+    margin-bottom: 100px;
     
 }
 
@@ -88,19 +87,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-bottom:30px;
     font-size:35px;
     text-align: center;
-
 }
 
 #texto{
-    font-size:20px;
-    padding: 15px;
-    
-    
+    font-size:18px;
+    padding: 15px; 
 }
 
 #divimg{
     width: 50%;
     height: 600px;
+    margin-bottom: 100px;
 }
 
 .imagem{
@@ -110,6 +107,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: 4px solid black;
     border-radius: 20px;
     animation: efeito 1.5s;
+    
 }
 
 .footer{
@@ -163,14 +161,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
     
     #texto{
-        font-size:15px;           
+        font-size:15px;       
     }
     .imagem{
         width: 80%;
     }
 }
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1275px){
     #title{
         font-size:25px;
     }
@@ -184,6 +182,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         
     .imagem{
         height: 350px;
+    }
+}
+
+@media screen and (max-width: 1275px){
+    body{
+        background-repeat:repeat;
     }
 }
 
@@ -208,10 +212,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .imagem{
         margin:0;
         width: 100%;
-    }
-    body{
-        background-repeat:repeat;
-    }
+    }     
 }
 
 @media screen and (max-width: 675px){
