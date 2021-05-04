@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">  
+
+</head>
+
+<body>
+    <header class = 'header'>
+        <h1>NASA Astronomy Picture of the Day</h1>
+    </header>
+    <div class = 'escolha'>
+        <label for="date">Escolha uma data:</label><br>
+        <input type="date" id="date" name="data" value="date">
+    </div>
+    <div class = 'conteudo'>
+        <div class = 'conteudoTexto invisivel'>
+            <h2 id = 'title'></h2>
+            <p id = 'texto'></p>
+        </div>
+        <div id = "divimg" class = "conteudoImg">
+        
+        </div>
+    </div>
+    <footer class = "footer">
+        <p>Made by Pedro Peralva</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="nasa.js"></script>
+</body>
+
+</html>

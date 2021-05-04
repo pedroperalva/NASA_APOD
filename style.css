@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53e146b7e4b0b0ad2b8c4f35/1415039223322-WESMQVKDQG2XT7FQKNMC/ke17ZwdGBToddI8pDm48kEx9m_XohMWniELAi-O0HggUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcDSD8iK4uPV6UgOjO8_xggQagaHpmBbymWeg-NoGZhBC4oSc8GykFUCclOqzPZ92K/space.gif?format=2500w');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+.header{
+    text-align: center;
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:honeydew;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.escolha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 30px;
+   
+}
+
+label{
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Bungee Inline', cursive;
+}
+
+#date{
+    width: 150px;
+    font-size:15px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    margin-right: 5px;
+    filter: invert(1);
+}
+
+.conteudo{
+    display:flex;
+  
+    
+}
+
+.conteudoTexto{
+    width: 40%;
+    height: 70%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left:3%;
+    color:honeydew;
+    border-radius: 20px;
+    animation: efeito 1.5s;
+    
+}
+
+.invisivel{
+    display:none;
+}
+
+#title{
+    padding-bottom:30px;
+    font-size:35px;
+    text-align: center;
+
+}
+
+#texto{
+    font-size:22px;
+    padding: 15px;
+    
+    
+}
+
+#divimg{
+    width: 50%;
+    height: 600px;
+}
+
+.imagem{
+    margin-left: 80px;
+    width: 100%;
+    height: 600px;
+    border: 4px solid black;
+    border-radius: 20px;
+    animation: efeito 1.5s;
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;   
+    text-align: center;
+    align-items: center;
+    line-height: 100px;
+}
+
+.footer p{
+    font-size: 20px;
+    height: 50px;
+    color:honeydew;
+    font-family: 'Bungee Inline', cursive;
+}
+
+@keyframes efeito {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+@media screen and (max-width: 480px)
