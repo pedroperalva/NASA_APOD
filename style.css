@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    
+    height: 100vh;
 }
 
 .header{
@@ -30,15 +30,20 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 15px;
+    padding-top: 15px;
     margin-bottom: 30px;
    
 }
 
 label{
     font-size:20px;
+    color:white;
     font-weight: bold;
     font-family: 'Bungee Inline', cursive;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 #date{
@@ -111,12 +116,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 80px;
     width: 100%;
     background-color:black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;   
+    position:fixed;
+    bottom:0;  
     text-align: center;
     align-items: center;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 .footer p{
@@ -138,4 +142,92 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 1750px){
+
+    #divimg{
+        height: 550px;
+    }
+    
+    .imagem{
+        height: 550px;
+    }
+
+    #texto{
+        font-size:18px;   
+    }
+}
+
+@media screen and (max-width: 1440px){
+    #title{
+        font-size:30px;
+    }
+    
+    #texto{
+        font-size:15px;           
+    }
+    .imagem{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    #title{
+        font-size:25px;
+    }
+        
+    #texto{
+        font-size:12px;         
+    }
+    #divimg{
+        height: 450px;
+    }
+        
+    .imagem{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudoTexto{
+        width: 80%;
+        margin-bottom: 15px;
+        margin-left:0px;
+    }
+
+    #divimg{
+        width: 80%;
+        margin-bottom:100px;
+    }
+
+    .imagem{
+        margin:0;
+        width: 100%;
+    }
+    body{
+        background-repeat:repeat;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .header{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        font-size:7px;
+    }
+    label{
+        font-size:15px;
+    }
+    .imagem{
+        height: 350px;
+    }
+}
