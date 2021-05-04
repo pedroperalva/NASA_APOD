@@ -142,14 +142,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
 
-@media screen and (max-width: 1750px){
+@media screen and (max-width: 1900px){
 
     #divimg{
-        height: 550px;
+        height: 400px;
     }
     
     .imagem{
-        height: 550px;
+        height: 400px;
     }
 
     #texto{
@@ -179,11 +179,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         font-size:12px;         
     }
     #divimg{
-        height: 450px;
+        height: 350px;
     }
         
     .imagem{
-        height: 450px;
+        height: 350px;
     }
 }
 
