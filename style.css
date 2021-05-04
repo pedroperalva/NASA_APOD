@@ -42,8 +42,8 @@ label{
     font-family: 'Bungee Inline', cursive;
     border: 1px solid white;
     background-color: black;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 15px;
+    padding: 2px;
 }
 
 #date{
@@ -92,7 +92,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 #texto{
-    font-size:22px;
+    font-size:20px;
     padding: 15px;
     
     
